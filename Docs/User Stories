@@ -1,0 +1,23 @@
+Primary story: logging in: 
+As a user, I want to securely access my app by logging in with an email and password. The app will confirm that the email and password matches the information in the database, and will then authorize my access. If the email and password does not match what the app has on file, the app will return a “failure to log in” message, and the user will be prompted to try again. If I try to log in with an email that is not on file, then the app will return a “email is not associated with an account” message.
+Secondary story: creating a new account
+Secondary story: As a user, I want to create a new account to store my personal information and preferences, such as log-in credentials, crypto, and favorites. I will indicate that I will create a new account, then the app will then show a form asking for my personal information, like name, email, experience in using crypto, and more. The app will then send a confirmation email to my email, and I will go to the email to confirm my identity and finish logging in. 
+
+Primary story: Selecting my cryptocurrency:
+As a user who is interested in specific crypto companies but has not yet used the app, I want to select from a set list of them (i.e. Bitcoin, Doge, Ethereum), in case I am not sure what stocks are best performing or I am not familiar with the market yet.
+I have the option to click a “star” next to the crypto listing if I want to keep it in my store of favorite cryptos. Once I do so, I will see the cryptos added to my list of “favorites.” If I have previously logged in, I want to retrieve my “favorited” cryptos from the last login.  
+
+Secondary story: Managing my list of “favorited” companies:
+As a user, I want to be able to seek out trading recommendations from the same cryptos I have preferred in the past. Once I log in, I will be able to see the set list of companies, but I can also navigate to a button with “My Favorites.” Clicking on it gives a list of companies that I have marked with a “star” in the past. I also want the option to “unfavorite” certain companies by de-selecting the star. If I “unfavorite” it, the company is immediately removed from the list.
+As a user, I want to be able to keep track of crypto I already own through the app. In addition to the list of “featured” crypto and “favorited” crypto, I see a button marked “My Wallet.” Clicking on it leads me to a list of cryptocurrency companies that I currently own stock in. If I want to seek out recommendations, buy, or sell any of these cryptos, I can click on it, and it will lead me to my individual portfolio for that company.
+
+
+Primary story: Buying:
+As a logged in user who knows which particular crypto I am interested in buying, will be able to simply click the “Buy Now” button that will enable me to buy that crypto. I will be able to choose whether to buy the crypto by its whole amount in integer or by the amount of cash in floating number. It will update the overall portfolio and its graph associated with it. If the user is unable to buy the crypto, they will get a warning.
+Secondary story
+Choose a time period(As a logged in user, I want to choose my preferred time period in order to see the information precisely. )
+Logged in user now at the time period page which has four choices: 1 day, 1 month, 1 year, max. Users can choose their preference one from these 4 options, and our app will collect tweets in selected periods.
+This is related to the timeframe the sentiment analysis will use to evaluate cryptos.
+
+Primary story: Sentiment analysis: 
+As a logged in user interested in a particular crypto, I want to assess the overall sentiment towards that crypto to decide whether to buy, sell, hold. I will be given a graph of some particular crypto’s value over time as well the sentiment score associated with the crypto. I want to be able to view live tweets regarding the crypto. If no new tweets or crypto exist, then we will get an error message. 
