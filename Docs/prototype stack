@@ -1,0 +1,6 @@
+For this prototype the technology stack we used is Flask using Python for the backend. We picked Flask and Python because it is simple but effective.
+In the backend we also used coinmarketcap API to fetch relevant information using the user input.
+We also tried to use Vue.js for the front end to separate front end and back end to make it more RESTful.
+We needed to use Node and Flask-CORS to allow each side to talk to each other.
+The basic process is that when the user gives an input (name of a crypto), the frontend will talk to the backend and it will sanitize and call the API using the
+user input and fetch any relevant information in json. It will be parsed and sent back to the front end so the user can see the output.
